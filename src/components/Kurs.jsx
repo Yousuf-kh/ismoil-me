@@ -1,4 +1,12 @@
-import { Box, Container, Flex, Grid, Heading, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  Flex,
+  Grid,
+  Heading,
+  Image,
+  Text,
+} from "@chakra-ui/react";
 
 import { kurses } from "../helpers/const";
 
@@ -22,8 +30,8 @@ const Kurs = () => {
           Kursning asosiy <br /> afzalliklari
         </Heading>
         <Grid templateColumns="repeat(4, 1fr)" pt={5} gap={6}>
-          {kurses.map((c) => (
-            <Box>
+          {kurses.map((c, i) => (
+            <Box pos={"relative"}>
               <Heading
                 fontSize={"120px"}
                 fontWeight={"700"}
@@ -45,6 +53,16 @@ const Kurs = () => {
               <Text pt={"3"} fontSize={"15px"} color={"#D9D9D9"}>
                 {c.text}
               </Text>
+              <Image
+                src={
+                  i == 1
+                    ? "../../images/blue-star.png"
+                    : "../../images/red-star.png"
+                }
+                pos={"absolute"}
+                top={"5"}
+                right={"90"}
+              />
             </Box>
           ))}
         </Grid>
