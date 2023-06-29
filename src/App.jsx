@@ -7,6 +7,8 @@ import Lessons from "./components/lessons";
 
 // Multi Carusel import
 import "react-multi-carousel/lib/styles.css";
+import Course from "./components/Course";
+import Sale from "./components/Sale";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Kurs />
       <WhoIs />
       <Lessons />
+      <Course />
+      <Sale />
     </>
   );
 }
