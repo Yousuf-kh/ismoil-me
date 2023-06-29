@@ -9,6 +9,8 @@ import Lessons from "./components/lessons";
 import "react-multi-carousel/lib/styles.css";
 import Course from "./components/Course";
 import Sale from "./components/Sale";
+import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Lessons />
       <Course />
       <Sale />
+      <Reviews />
+      <Footer />
     </>
   );
 }
