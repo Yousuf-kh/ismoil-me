@@ -1,4 +1,4 @@
-import { Image } from "@chakra-ui/react";
+import { Image, Text } from "@chakra-ui/react";
 
 export const navLinks = [
   "Men haqimda",
@@ -34,3 +34,38 @@ export const responsive = {
     items: 3,
   },
 };
+
+export const kurses = [
+  {
+    num: "01",
+    title: "Muallif va kuratorlarning yordami",
+    text: "Siz Adobe Photoshop, Adobe Illustrator va Corel Draw bilan ishlash bo'yicha qo'llanmalar va hayotiy tajribalarga ega bo'lasiz.",
+  },
+  {
+    num: "02",
+    title: "Portfolio",
+    text: "Kursni tugatganingizdan so'ng, sizning qo'lingizda portfolio uchun bir nechta tayyor ishlar bo'ladi.",
+  },
+  {
+    num: "03",
+    title: "Vaqtlar chegaralanmagan",
+    text: "Kurs sizni to’laligicha, hech qanday cheklovlar va vaqt cheklovlarisiz taqdim etamiz.",
+  },
+  {
+    num: "04",
+    title: "Telegramda yopiq chat",
+    text: "Telegram chatimizda siz istagan savollaringizni kuratorlarga yoki menga berishingiz mumkin.",
+  },
+];
+
+export const whois = [
+  { text: <Text>Dizayn sohasiga yangi kirib kelganlar uchun</Text> },
+  {
+    text: (
+      <Text>
+        Marketologlar, muharrirlar va <br /> SMM mutaxassislari uchun
+      </Text>
+    ),
+  },
+  { text: <Text>Ijodkorlik hayot tarzi bo'lgan har bir kishi uchun</Text> },
+];

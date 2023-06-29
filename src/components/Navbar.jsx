@@ -1,4 +1,12 @@
-import { Box, Container, Flex, Image, Link, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Container,
+  Flex,
+  Image,
+  Link,
+  Text,
+} from "@chakra-ui/react";
 
 import { navLinks } from "../helpers/const";
 
@@ -14,7 +22,7 @@ const Navbar = () => {
             </Text>
           </Flex>
 
-          <Flex gap={"5"}>
+          <Flex align={"center"} gap={"5"}>
             {navLinks.map((c) => (
               <Link
                 _hover={{ color: "#60CDF6", textDecor: "underline" }}
@@ -24,6 +32,15 @@ const Navbar = () => {
                 {c}
               </Link>
             ))}
+            <Button
+              bg={"#31333D"}
+              color={"#fff"}
+              w={"70px"}
+              borderRadius={"20px"}
+              size={"sm"}
+            >
+              Kirish
+            </Button>
           </Flex>
         </Flex>
       </Container>

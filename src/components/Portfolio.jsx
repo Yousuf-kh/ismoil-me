@@ -7,6 +7,7 @@ import {
   Flex,
   Grid,
   Heading,
+  Icon,
   Image,
   Text,
 } from "@chakra-ui/react";
@@ -74,7 +75,7 @@ const Portfolio = () => {
             ></iframe>
           </Box>
 
-          <Box>
+          <Box pos={"relative"}>
             <Heading fontSize={"35px"} color={"#242935"} pb={3}>
               KURS HAQIDA BATAFSIL
             </Heading>
@@ -90,7 +91,18 @@ const Portfolio = () => {
               yasalishidan bo’lgan maqsad) o'zlashtirishingiz uchun zarur
               bo'lgan barcha tafsilotlar bilan tanishtiradi.
             </Text>
-            <Box>O'quvchilarimizning ishlari</Box>
+            <Flex
+              gap={1}
+              border={"1px solid #D0D5DD"}
+              borderRadius={"20px"}
+              p={"2px 10px"}
+              mt={4}
+              pos={"absolute"}
+              right={"0"}
+            >
+              <Text fontSize={"14px"}> O'quvchilarimizning ishlari</Text>{" "}
+              <Image w={"24px"} h={"24px"} src="../../images/u_arrow.png" />
+            </Flex>
           </Box>
         </Flex>
       </Container>
