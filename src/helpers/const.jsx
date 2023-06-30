@@ -1,10 +1,10 @@
 import { Image, Text } from "@chakra-ui/react";
 
 export const navLinks = [
-  "Men haqimda",
-  "Portfolio",
-  "Dizayn xizmatlari",
-  "Onlayn-kurslar",
+  { text: "Men haqimda", page: "/about" },
+  { text: "Portfolio", page: "/about" },
+  { text: "Dizayn xizmatlari", page: "/about" },
+  { text: "Onlayn-kurslar", page: "/about" },
 ];
 
 export const portfolioFirst = [
@@ -46,11 +46,11 @@ export const responsive2 = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 3,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 3,
+    items: 1,
   },
 };
 
@@ -87,4 +87,11 @@ export const whois = [
     ),
   },
   { text: <Text>Ijodkorlik hayot tarzi bo'lgan har bir kishi uchun</Text> },
+];
+
+export const textAbout = [
+  "15 ta amaliy darslar",
+  "Kurator va uyga vazifalar",
+  "Kusrni tamomlaganingiz haqida sertifikat",
+  "Vaqt borasida hech qanday chegaralarsiz",
 ];

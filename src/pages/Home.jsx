@@ -1,0 +1,26 @@
+import React from "react";
+import Hero from "../components/Hero";
+import Portfolio from "../components/Portfolio";
+import Kurs from "../components/Kurs";
+import WhoIs from "../components/whoIs";
+import Lessons from "../components/lessons";
+import Course from "../components/Course";
+import Sale from "../components/Sale";
+import Reviews from "../components/Reviews";
+
+const Home = () => {
+  return (
+    <>
+      <Hero />
+      <Portfolio />
+      <Kurs />
+      <WhoIs />
+      <Lessons />
+      <Course />
+      <Sale />
+      <Reviews />
+    </>
+  );
+};
+
+export default Home;

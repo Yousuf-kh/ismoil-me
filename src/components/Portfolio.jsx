@@ -21,8 +21,11 @@ const Portfolio = () => {
   return (
     <Box w={"full"} bg={"#fff"} p={"50px"}>
       <Container maxW={"container.lg"}>
-        <Grid templateColumns="repeat(2, 1fr)" gap={1}>
-          <Box w={"70%"}>
+        <Grid
+          templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
+          gap={1}
+        >
+          <Box w={{ base: "full", md: "70%" }}>
             <Heading
               color={"#242935"}
               fontSize={"24px"}
@@ -61,8 +64,8 @@ const Portfolio = () => {
           </Carousel>
         </Grid>
 
-        <Flex gap={5} pt={"50px"}>
-          <Box>
+        <Flex gap={5} pt={"50px"} flexDirection={{ base: "column", md: "row" }}>
+          <Box display={{ base: "none", md: "block" }}>
             <iframe
               width="560"
               height="315"
@@ -75,8 +78,12 @@ const Portfolio = () => {
             ></iframe>
           </Box>
 
-          <Box pos={"relative"}>
-            <Heading fontSize={"35px"} color={"#242935"} pb={3}>
+          <Box pos={"relative"} pb={{ base: "10px", md: "0" }}>
+            <Heading
+              fontSize={{ base: "20px", md: "35px" }}
+              color={"#242935"}
+              pb={3}
+            >
               KURS HAQIDA BATAFSIL
             </Heading>
             <Text lineHeight={"19px"} fontSize={"14px"}>

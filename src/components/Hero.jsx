@@ -14,15 +14,19 @@ const Hero = () => {
       w={"full"}
       backgroundImage={"url(../../images/bg.png)"}
       minH={"500px"}
-      backgroundPosition={"center"}
+      backgroundPosition={{ base: "left", md: "center" }}
     >
       <Container maxW={"container.lg"}>
-        <Box pt={"100px"} w={"500px"} pos={"relative"}>
+        <Box
+          pt={{ base: "30px", md: "100px" }}
+          w={{ base: "270px", md: "500px" }}
+          pos={"relative"}
+        >
           <Flex align={"flex-end"} pos={"relative"}>
             <Heading
-              fontSize={"38px"}
+              fontSize={{ base: "30px", md: "38px" }}
               fontWeight={"700"}
-              lineHeight={"40px"}
+              lineHeight={{ base: "35px", md: "40px" }}
               letterSpacing={"0.03em"}
               textAlign={"left"}
               color={"#fff"}
@@ -43,7 +47,7 @@ const Hero = () => {
           </Flex>
           <Text
             color={"#fff"}
-            fontSize={"22px"}
+            fontSize={{ base: "18px", md: "22px" }}
             fontWeight={"300"}
             lineHeight={"24px"}
             letterSpacing={"0.03em"}
@@ -56,7 +60,12 @@ const Hero = () => {
           <Button bg={"#45CCFF"} color={"#fff"} fontWeight={"300"} mt={5}>
             BATAFSIL MA'LUMOT
           </Button>
-          <Flex pos={"absolute"} right={"0"} align={"center"}>
+          <Flex
+            pt={{ base: 10, md: 0 }}
+            pos={"absolute"}
+            right={"0"}
+            align={"center"}
+          >
             <Text textAlign={"end"} color={"#fff"}>
               <Box as="span" fontWeight={"700"}>
                 Ismoil

@@ -11,7 +11,7 @@ import {
 const Sale = () => {
   return (
     <Box
-      h={"326px"}
+      minH={"326px"}
       w={"full"}
       backgroundImage={"url(../../images/bg_10.png)"}
       backgroundSize={"cover"}
@@ -19,7 +19,10 @@ const Sale = () => {
       p={"50px"}
     >
       <Container maxW={"container.lg"}>
-        <Grid gridTemplateColumns={"repeat(2,1fr)"} gap={5}>
+        <Grid
+          gridTemplateColumns={{ base: "repeat(1,1fr)", md: "repeat(2,1fr)" }}
+          gap={5}
+        >
           <Box pt={9}>
             <Text
               color={"#fff"}

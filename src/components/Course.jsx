@@ -17,10 +17,15 @@ const Course = () => {
         <Heading textAlign={"center"} pb={10}>
           Kurslar
         </Heading>
-        <Flex>
+        <Flex flexDirection={{ base: "column", md: "row" }}>
           <Image src="../../images/kurs-1.png" />
-          <Flex bg={"#fff"} gap={5} borderRadius={"0 20px 20px 0"}>
-            <Box w={"45%"} mt={10} ml={5}>
+          <Flex
+            flexDirection={{ base: "column", md: "row" }}
+            bg={"#fff"}
+            gap={5}
+            borderRadius={"0 20px 20px 0"}
+          >
+            <Box w={{ base: "100%", md: "45%" }} mt={10} ml={5}>
               <Text color={"#475467"} fontWeight={"600"} fontSize={"16px"}>
                 Muallif:
                 <br /> Ismoil Mahmudjonov
@@ -52,13 +57,16 @@ const Course = () => {
               </Flex>
             </Box>
             {/*  */}
-            <Box
+            <Flex
               bg={"#F1F1F1"}
-              w={"60%"}
+              w={{ base: "100%", md: "60%" }}
               h={"96px"}
               p={2}
               mt={10}
               borderRadius={"20px 0 0 20px"}
+              flexDirection={"row"}
+              align={"center"}
+              gap={5}
             >
               <Flex align={"center"} h={"76px"} gap={5}>
                 <Heading>$50</Heading>
@@ -69,17 +77,26 @@ const Course = () => {
                   </Box>{" "}
                 </Text>
               </Flex>
-              <Button bg={"#53C2EC"} color={"#fff"} mt={"60px"}>
+              <Button
+                bg={"#53C2EC"}
+                color={"#fff"}
+                mt={{ base: "0", md: "240px" }}
+              >
                 SOTIB OLISH
               </Button>
-            </Box>
+            </Flex>
           </Flex>
         </Flex>
         {/*  */}
-        <Flex pt={10}>
-          <Image src="../../images/kurs-2.png" />
-          <Flex bg={"#fff"} gap={5} borderRadius={"0 20px 20px 0"}>
-            <Box w={"45%"} mt={10} ml={5}>
+        <Flex pt={10} flexDirection={{ base: "column", md: "row" }}>
+          <Image src="../../images/kurs-2.png" backgroundSize={"cover"} />
+          <Flex
+            flexDirection={{ base: "column", md: "row" }}
+            bg={"#fff"}
+            gap={5}
+            borderRadius={"0 20px 20px 0"}
+          >
+            <Box w={{ base: "100%", md: "45%" }} mt={10} ml={5}>
               <Text color={"#475467"} fontWeight={"600"} fontSize={"16px"}>
                 Muallif:
                 <br /> Ismoil Mahmudjonov
@@ -111,13 +128,16 @@ const Course = () => {
               </Flex>
             </Box>
             {/*  */}
-            <Box
+            <Flex
               bg={"#F1F1F1"}
-              w={"60%"}
+              w={{ base: "100%", md: "60%" }}
               h={"96px"}
               p={2}
               mt={10}
               borderRadius={"20px 0 0 20px"}
+              flexDirection={"row"}
+              align={"center"}
+              gap={5}
             >
               <Flex align={"center"} h={"76px"} gap={5}>
                 <Heading>$100</Heading>
@@ -128,10 +148,14 @@ const Course = () => {
                   </Box>{" "}
                 </Text>
               </Flex>
-              <Button bg={"#53C2EC"} color={"#fff"} mt={"60px"}>
+              <Button
+                bg={"#53C2EC"}
+                color={"#fff"}
+                mt={{ base: "0", md: "240px" }}
+              >
                 SOTIB OLISH
               </Button>
-            </Box>
+            </Flex>
           </Flex>
         </Flex>
       </Container>

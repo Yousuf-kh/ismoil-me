@@ -1,14 +1,8 @@
-import {
-  Box,
-  Button,
-  Container,
-  Flex,
-  Image,
-  Link,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Image, Text } from "@chakra-ui/react";
 
 import { navLinks } from "../helpers/const";
+import { HamburgerIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,21 +11,35 @@ const Navbar = () => {
         <Flex align={"center"} h={"60px"} justify={"space-between"}>
           <Flex align={"center"} gap={2} cursor={"pointer"}>
             <Image src="../../images/logo.png" />
-            <Text fontSize={"12px"} color={"#ccc"}>
+            <Text
+              fontSize={"12px"}
+              color={"#ccc"}
+              display={{ base: "none", md: "block" }}
+            >
               3 yildan ortiq tajribaga ega <br /> grafik dizayner
             </Text>
           </Flex>
 
           <Flex align={"center"} gap={"5"}>
             {navLinks.map((c) => (
-              <Link
-                _hover={{ color: "#60CDF6", textDecor: "underline" }}
-                color={"#fff"}
-                fontSize={"14px"}
-              >
-                {c}
+              <Link to={c.page}>
+                <Text
+                  _hover={{ color: "#60CDF6", textDecor: "underline" }}
+                  color={"#fff"}
+                  fontSize={"14px"}
+                  display={{ base: "none", md: "block" }}
+                >
+                  {c.text}
+                </Text>
               </Link>
             ))}
+            <HamburgerIcon
+              color={"white"}
+              cursor={"pointer"}
+              w={"24px"}
+              h={"24px"}
+              display={{ base: "block", md: "none" }}
+            />
             <Button
               bg={"#31333D"}
               color={"#fff"}

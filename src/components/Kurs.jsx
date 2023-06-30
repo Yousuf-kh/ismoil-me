@@ -15,7 +15,7 @@ const Kurs = () => {
     <Box
       w={"full"}
       backgroundImage={"url(../../images/bg_2.png)"}
-      h={"556px"}
+      minH={"556px"}
       backgroundSize={"cover"}
       p={"50px"}
     >
@@ -29,7 +29,11 @@ const Kurs = () => {
         >
           Kursning asosiy <br /> afzalliklari
         </Heading>
-        <Grid templateColumns="repeat(4, 1fr)" pt={5} gap={6}>
+        <Grid
+          templateColumns={{ base: "repeat(1,1fr)", md: "repeat(4, 1fr)" }}
+          pt={5}
+          gap={6}
+        >
           {kurses.map((c, i) => (
             <Box pos={"relative"}>
               <Heading

@@ -17,7 +17,11 @@ const WhoIs = () => {
         <Heading color={"#242935"} fontSize={"38px"} textAlign={"center"}>
           Kimlar uchun
         </Heading>
-        <Grid gridTemplateColumns={"repeat(3, 1fr)"} gridGap={6} pt={10}>
+        <Grid
+          gridTemplateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
+          gridGap={6}
+          pt={10}
+        >
           {whois.map((c) => (
             <Flex gap={5} align={"center"}>
               <Image src="../../images/Subtract.png" />
