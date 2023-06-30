@@ -4,11 +4,12 @@ import {
   Container,
   Flex,
   Image,
-  Link,
+  // Link,
   Text,
 } from "@chakra-ui/react";
 
 import { navLinks } from "../helpers/const";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,24 +20,28 @@ const Footer = () => {
           h={"90px"}
           justify={{ base: "center", md: "space-between" }}
         >
-          <Flex
-            display={{ base: "none", md: "block" }}
-            align={"center"}
-            gap={2}
-            cursor={"pointer"}
-          >
-            <Image src="../../images/logo.png" />
-          </Flex>
+          <Link to="/">
+            <Flex
+              display={{ base: "none", md: "block" }}
+              align={"center"}
+              gap={2}
+              cursor={"pointer"}
+            >
+              <Image src="../../images/logo.png" />
+            </Flex>
+          </Link>
 
           <Flex align={"center"} gap={"5"}>
             {navLinks.map((c) => (
-              <Link
-                _hover={{ color: "#60CDF6", textDecor: "underline" }}
-                color={"#fff"}
-                fontSize={"14px"}
-                display={{ base: "none", md: "block" }}
-              >
-                {c}
+              <Link key={c.text} to={c.page}>
+                <Text
+                  _hover={{ color: "#60CDF6", textDecor: "underline" }}
+                  color={"#fff"}
+                  fontSize={"14px"}
+                  display={{ base: "none", md: "block" }}
+                >
+                  {c.text}
+                </Text>
               </Link>
             ))}
 

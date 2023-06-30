@@ -58,8 +58,10 @@ const Portfolio = () => {
             autoPlaySpeed={3500}
             infinite={true}
           >
-            {portfolioFirst.map((c) => (
-              <Box p={1}>{c.image}</Box>
+            {portfolioFirst.map((c, i) => (
+              <Box key={i} p={1}>
+                {c.image}
+              </Box>
             ))}
           </Carousel>
         </Grid>

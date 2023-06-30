@@ -35,7 +35,7 @@ const Kurs = () => {
           gap={6}
         >
           {kurses.map((c, i) => (
-            <Box pos={"relative"}>
+            <Box key={i} pos={"relative"}>
               <Heading
                 fontSize={"120px"}
                 fontWeight={"700"}

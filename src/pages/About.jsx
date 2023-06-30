@@ -6,6 +6,8 @@ import Lessons from "../components/lessons";
 import Sale from "../components/Sale";
 import OnlineCourse from "../components/OnlineCourse";
 
+import { navLinks } from "../helpers/const";
+
 const About = () => {
   return (
     <>

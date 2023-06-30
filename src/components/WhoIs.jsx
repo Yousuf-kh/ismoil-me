@@ -22,8 +22,8 @@ const WhoIs = () => {
           gridGap={6}
           pt={10}
         >
-          {whois.map((c) => (
-            <Flex gap={5} align={"center"}>
+          {whois.map((c, i) => (
+            <Flex key={i} gap={5} align={"center"}>
               <Image src="../../images/Subtract.png" />
               <Text fontSize={"16px"} fontWeight={"700"} lineHeight={"19px"}>
                 {c.text}
