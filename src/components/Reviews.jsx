@@ -29,7 +29,7 @@ const Reviews = () => {
             boxShadow={"0px 13px 25px -1px rgba(34, 60, 80, 0.2)"}
             h={"300px"}
             mt={10}
-            width={{ base: "200px", md: "570px" }}
+            width={{ base: "full", md: "570px" }}
           >
             <Carousel responsive={responsive2}>
               <Box>
