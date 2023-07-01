@@ -27,7 +27,7 @@ const Footer = () => {
               gap={2}
               cursor={"pointer"}
             >
-              <Image src="../../images/logo.png" />
+              <Image src="/images/logo.png" />
             </Flex>
           </Link>
 
@@ -46,9 +46,9 @@ const Footer = () => {
             ))}
 
             <Flex gap={2}>
-              <Image src="../../images/insta.png" />
-              <Image src="../../images/telegram.png" />
-              <Image src="../../images/youtube.png" />
+              <Image src="/images/insta.png" />
+              <Image src="/images/telegram.png" />
+              <Image src="/images/youtube.png" />
             </Flex>
           </Flex>
         </Flex>

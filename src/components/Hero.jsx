@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <Box
       w={"full"}
-      backgroundImage={"url(../../images/bg.png)"}
+      backgroundImage={"url(/images/bg.png)"}
       minH={"500px"}
       backgroundPosition={{ base: "left", md: "center" }}
     >
@@ -75,7 +75,7 @@ const Hero = () => {
                 Dizaner
               </Box>
             </Text>
-            <Image src="../../images/circle.png" />
+            <Image src="/images/circle.png" />
           </Flex>
         </Box>
       </Container>

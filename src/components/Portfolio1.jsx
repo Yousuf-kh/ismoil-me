@@ -33,9 +33,9 @@ const Portfolio1 = () => {
           </Carousel>
         </Grid>
         <Grid gridTemplateColumns={"repeat(3,1fr)"} gap={5}>
-          <Image src="../../images/in-brain-post-1.png" />
-          <Image src="../../images/in-brain-post-2.png" />
-          <Image src="../../images/in-brain-post-3.png" />
+          <Image src="/images/in-brain-post-1.png" />
+          <Image src="/images/in-brain-post-2.png" />
+          <Image src="/images/in-brain-post-3.png" />
         </Grid>
         <Center py={10}>
           <Button bg={"#45CCFF"} color={"#fff"} px={10}>

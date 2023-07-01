@@ -24,7 +24,7 @@ const WhoIs = () => {
         >
           {whois.map((c, i) => (
             <Flex key={i} gap={5} align={"center"}>
-              <Image src="../../images/Subtract.png" />
+              <Image src="/images/Subtract.png" />
               <Text fontSize={"16px"} fontWeight={"700"} lineHeight={"19px"}>
                 {c.text}
               </Text>

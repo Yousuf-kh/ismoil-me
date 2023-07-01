@@ -8,12 +8,12 @@ export const navLinks = [
 ];
 
 export const portfolioFirst = [
-  { image: <Image src="../../images/1.jpg" borderRadius={"10px"} /> },
-  { image: <Image src="../../images/2.jpg" borderRadius={"10px"} /> },
-  { image: <Image src="../../images/3.jpg" borderRadius={"10px"} /> },
-  { image: <Image src="../../images/4.jpg" borderRadius={"10px"} /> },
-  { image: <Image src="../../images/5.jpg" borderRadius={"10px"} /> },
-  { image: <Image src="../../images/6.jpg" borderRadius={"10px"} /> },
+  { image: <Image src="/images/1.jpg" borderRadius={"10px"} /> },
+  { image: <Image src="/images/2.jpg" borderRadius={"10px"} /> },
+  { image: <Image src="/images/3.jpg" borderRadius={"10px"} /> },
+  { image: <Image src="/images/4.jpg" borderRadius={"10px"} /> },
+  { image: <Image src="/images/5.jpg" borderRadius={"10px"} /> },
+  { image: <Image src="/images/6.jpg" borderRadius={"10px"} /> },
 ];
 
 export const responsive = {
@@ -104,22 +104,22 @@ export const portfolioNumbers = [
 ];
 
 export const portfolioImages = [
-  { image: <Image src="../../images/in-brain-logo.png" /> },
-  { image: <Image src="../../images/newera.png" /> },
-  { image: <Image src="../../images/rapm.png" /> },
+  { image: <Image src="/images/in-brain-logo.png" /> },
+  { image: <Image src="/images/newera.png" /> },
+  { image: <Image src="/images/rapm.png" /> },
 ];
 
 export const company = [
-  { image: <Image src="../../images/c-1.png" /> },
-  { image: <Image src="../../images/c-2.png" /> },
-  { image: <Image src="../../images/c-3.png" /> },
-  { image: <Image src="../../images/c-4.png" /> },
-  { image: <Image src="../../images/c-5.png" /> },
-  { image: <Image src="../../images/c-6.png" /> },
-  { image: <Image src="../../images/c-7.png" /> },
-  { image: <Image src="../../images/c-8.png" /> },
-  { image: <Image src="../../images/c-9.png" /> },
-  { image: <Image src="../../images/c-10.png" /> },
-  { image: <Image src="../../images/c-11.png" /> },
-  { image: <Image src="../../images/c-12.png" /> },
+  { image: <Image src="/images/c-1.png" /> },
+  { image: <Image src="/images/c-2.png" /> },
+  { image: <Image src="/images/c-3.png" /> },
+  { image: <Image src="/images/c-4.png" /> },
+  { image: <Image src="/images/c-5.png" /> },
+  { image: <Image src="/images/c-6.png" /> },
+  { image: <Image src="/images/c-7.png" /> },
+  { image: <Image src="/images/c-8.png" /> },
+  { image: <Image src="/images/c-9.png" /> },
+  { image: <Image src="/images/c-10.png" /> },
+  { image: <Image src="/images/c-11.png" /> },
+  { image: <Image src="/images/c-12.png" /> },
 ];

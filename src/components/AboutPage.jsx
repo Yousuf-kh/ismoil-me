@@ -3,11 +3,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <Box
-      h={"500px"}
-      w={"full"}
-      backgroundImage={"url(../../images/about-bg.png)"}
-    >
+    <Box h={"500px"} w={"full"} backgroundImage={"url(/images/about-bg.png)"}>
       <Container maxW={"container.lg"}>
         <Box pt={"150px"} w={{ base: "full", md: "60%" }}>
           <Heading

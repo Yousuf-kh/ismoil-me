@@ -33,7 +33,7 @@ const Reviews = () => {
           >
             <Carousel responsive={responsive2}>
               <Box>
-                <Image src="../../images/logo2.png" pb={5} />
+                <Image src="/images/logo2.png" pb={5} />
                 <Text fontSize={{ base: "10px", md: "17px" }} pb={5}>
                   <Link color={"#4D9FEB"}>@mirjalolov_komron</Link> amazing
                   concept. It really brings me joy 💜 Bring a sense of play your
@@ -43,7 +43,7 @@ const Reviews = () => {
                 <Flex justify={"space-between"}>
                   <Flex align={"center"} gap={2}>
                     <Image
-                      src="../../images/4.jpg"
+                      src="/images/4.jpg"
                       w={{ base: "20px", md: "64px" }}
                       h={{ base: "20px", md: "64px" }}
                       borderRadius={"100%"}
@@ -54,15 +54,15 @@ const Reviews = () => {
                     </Box>
                   </Flex>
                   <Flex align={"center"} gap={2}>
-                    <Image src="../../images/star.png" />
-                    <Image src="../../images/star.png" />
-                    <Image src="../../images/star.png" />
+                    <Image src="/images/star.png" />
+                    <Image src="/images/star.png" />
+                    <Image src="/images/star.png" />
                   </Flex>
                 </Flex>
               </Box>
 
               <Box>
-                <Image src="../../images/logo2.png" pb={5} />
+                <Image src="/images/logo2.png" pb={5} />
                 <Text fontSize={{ base: "10px", md: "17px" }} pb={5}>
                   <Link color={"#4D9FEB"}>@mirjalolov_komron</Link> amazing
                   concept. It really brings me joy 💜 Bring a sense of play your
@@ -72,7 +72,7 @@ const Reviews = () => {
                 <Flex justify={"space-between"}>
                   <Flex align={"center"} gap={2}>
                     <Image
-                      src="../../images/4.jpg"
+                      src="/images/4.jpg"
                       w={{ base: "20px", md: "64px" }}
                       h={{ base: "20px", md: "64px" }}
                       borderRadius={"100%"}
@@ -83,15 +83,15 @@ const Reviews = () => {
                     </Box>
                   </Flex>
                   <Flex align={"center"} gap={2}>
-                    <Image src="../../images/star.png" />
-                    <Image src="../../images/star.png" />
-                    <Image src="../../images/star.png" />
+                    <Image src="/images/star.png" />
+                    <Image src="/images/star.png" />
+                    <Image src="/images/star.png" />
                   </Flex>
                 </Flex>
               </Box>
 
               <Box>
-                <Image src="../../images/logo2.png" pb={5} />
+                <Image src="/images/logo2.png" pb={5} />
                 <Text fontSize={{ base: "10px", md: "17px" }} pb={5}>
                   <Link color={"#4D9FEB"}>@mirjalolov_komron</Link> amazing
                   concept. It really brings me joy 💜 Bring a sense of play your
@@ -101,7 +101,7 @@ const Reviews = () => {
                 <Flex justify={"space-between"}>
                   <Flex align={"center"} gap={2}>
                     <Image
-                      src="../../images/4.jpg"
+                      src="/images/4.jpg"
                       w={{ base: "20px", md: "64px" }}
                       h={{ base: "20px", md: "64px" }}
                       borderRadius={"100%"}
@@ -112,9 +112,9 @@ const Reviews = () => {
                     </Box>
                   </Flex>
                   <Flex align={"center"} gap={2}>
-                    <Image src="../../images/star.png" />
-                    <Image src="../../images/star.png" />
-                    <Image src="../../images/star.png" />
+                    <Image src="/images/star.png" />
+                    <Image src="/images/star.png" />
+                    <Image src="/images/star.png" />
                   </Flex>
                 </Flex>
               </Box>

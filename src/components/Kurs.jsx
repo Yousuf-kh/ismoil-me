@@ -14,7 +14,7 @@ const Kurs = () => {
   return (
     <Box
       w={"full"}
-      backgroundImage={"url(../../images/bg_2.png)"}
+      backgroundImage={"url(/images/bg_2.png)"}
       minH={"556px"}
       backgroundSize={"cover"}
       p={"50px"}
@@ -58,11 +58,7 @@ const Kurs = () => {
                 {c.text}
               </Text>
               <Image
-                src={
-                  i == 1
-                    ? "../../images/blue-star.png"
-                    : "../../images/red-star.png"
-                }
+                src={i == 1 ? "/images/blue-star.png" : "/images/red-star.png"}
                 pos={"absolute"}
                 top={"5"}
                 right={"90"}

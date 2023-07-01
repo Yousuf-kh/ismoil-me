@@ -48,7 +48,7 @@ const Portfolio = () => {
               </Text>
             </Flex>
             <Center py={"20px"}>
-              <Image src="../../images/vector.png" />
+              <Image src="/images/vector.png" />
             </Center>
           </Box>
 
@@ -110,7 +110,7 @@ const Portfolio = () => {
               right={"0"}
             >
               <Text fontSize={"14px"}> O'quvchilarimizning ishlari</Text>{" "}
-              <Image w={"24px"} h={"24px"} src="../../images/u_arrow.png" />
+              <Image w={"24px"} h={"24px"} src="/images/u_arrow.png" />
             </Flex>
           </Box>
         </Flex>

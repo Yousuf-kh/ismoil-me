@@ -27,7 +27,7 @@ const Navbar = () => {
         <Flex align={"center"} h={"60px"} justify={"space-between"}>
           <Link to="/">
             <Flex align={"center"} gap={2} cursor={"pointer"}>
-              <Image src="../../images/logo.png" />
+              <Image src="/images/logo.png" />
               <Text
                 fontSize={"12px"}
                 color={"#ccc"}

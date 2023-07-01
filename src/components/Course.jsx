@@ -18,7 +18,7 @@ const Course = () => {
           Kurslar
         </Heading>
         <Flex flexDirection={{ base: "column", md: "row" }}>
-          <Image src="../../images/kurs-1.png" />
+          <Image src="/images/kurs-1.png" />
           <Flex
             flexDirection={{ base: "column", md: "row" }}
             bg={"#fff"}
@@ -32,11 +32,11 @@ const Course = () => {
               </Text>
               <Flex gap={2} pt={2}>
                 <Flex>
-                  <Image src="../../images/play.png" />
+                  <Image src="/images/play.png" />
                   <Text color={"#828282"}>15 darslik</Text>
                 </Flex>
                 <Flex>
-                  <Image src="../../images/history.png" />
+                  <Image src="/images/history.png" />
                   <Text color={"#828282"}>8 soat 59 daq</Text>
                 </Flex>
               </Flex>
@@ -53,7 +53,7 @@ const Course = () => {
                 w={"123px"}
               >
                 <Link bg={"none"}>Batafsil</Link>
-                <Image src="../../images/u_arrow-right.png" />
+                <Image src="/images/u_arrow-right.png" />
               </Flex>
             </Box>
             {/*  */}
@@ -89,7 +89,7 @@ const Course = () => {
         </Flex>
         {/*  */}
         <Flex pt={10} flexDirection={{ base: "column", md: "row" }}>
-          <Image src="../../images/kurs-2.png" backgroundSize={"cover"} />
+          <Image src="/images/kurs-2.png" backgroundSize={"cover"} />
           <Flex
             flexDirection={{ base: "column", md: "row" }}
             bg={"#fff"}
@@ -103,11 +103,11 @@ const Course = () => {
               </Text>
               <Flex gap={2} pt={2}>
                 <Flex>
-                  <Image src="../../images/play.png" />
+                  <Image src="/images/play.png" />
                   <Text color={"#828282"}>15 darslik</Text>
                 </Flex>
                 <Flex>
-                  <Image src="../../images/history.png" />
+                  <Image src="/images/history.png" />
                   <Text color={"#828282"}>8 soat 59 daq</Text>
                 </Flex>
               </Flex>
@@ -124,7 +124,7 @@ const Course = () => {
                 w={"123px"}
               >
                 <Link bg={"none"}>Batafsil</Link>
-                <Image src="../../images/u_arrow-right.png" />
+                <Image src="/images/u_arrow-right.png" />
               </Flex>
             </Box>
             {/*  */}

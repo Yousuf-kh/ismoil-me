@@ -17,7 +17,7 @@ const OnlineCourse = () => {
     <Box
       minH={"450px"}
       w={"full"}
-      backgroundImage={"url(../../images/kurs-bg.png)"}
+      backgroundImage={"url(/images/kurs-bg.png)"}
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}
       backgroundPosition={{ base: "left", md: "center" }}
@@ -63,7 +63,7 @@ const OnlineCourse = () => {
           >
             {textAbout.map((c, i) => (
               <Flex gap={2} align={"center"} key={i}>
-                <Image src="../../images/Subtract.png" />
+                <Image src="/images/Subtract.png" />
                 <Text color={"#D9D9D9"} fontSize={"18px"}>
                   {c}
                 </Text>

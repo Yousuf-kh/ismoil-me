@@ -10,7 +10,7 @@ const Lessons = () => {
       >
         Kursimzada siz quyidagilarni o’rganishingiz mumkin
       </Heading>
-      <Image src="../../images/bg_3.png" />
+      <Image src="/images/bg_3.png" />
       <Box textAlign={"center"} pt={5}>
         <Button size={{ base: "sm", md: "md" }} bg={"#53C2EC"} color={"#fff"}>
           SINAB KO'RISH

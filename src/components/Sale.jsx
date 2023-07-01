@@ -13,7 +13,7 @@ const Sale = () => {
     <Box
       minH={"326px"}
       w={"full"}
-      backgroundImage={"url(../../images/bg_10.png)"}
+      backgroundImage={"url(/images/bg_10.png)"}
       backgroundSize={"cover"}
       backgroundPosition={"center"}
       p={"50px"}
@@ -52,7 +52,7 @@ const Sale = () => {
               Aksiya faqatgina guruhlik darsimizga amal qiladi.
             </Text>
           </Box>
-          <Image src="../../images/10.png" />
+          <Image src="/images/10.png" />
         </Grid>
       </Container>
     </Box>
