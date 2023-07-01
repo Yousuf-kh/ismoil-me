@@ -6,6 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Kurses from "./pages/Kurses";
 import About from "./pages/About";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/kurses" element={<Kurses />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

@@ -4,7 +4,7 @@ export const navLinks = [
   { text: "Men haqimda", page: "/about" },
   { text: "Portfolio", page: "/about" },
   { text: "Dizayn xizmatlari", page: "/about" },
-  { text: "Onlayn-kurslar", page: "/about" },
+  { text: "Onlayn-kurslar", page: "/kurses" },
 ];
 
 export const portfolioFirst = [
@@ -94,4 +94,17 @@ export const textAbout = [
   "Kurator va uyga vazifalar",
   "Kusrni tamomlaganingiz haqida sertifikat",
   "Vaqt borasida hech qanday chegaralarsiz",
+];
+
+export const portfolioNumbers = [
+  { heading: "3", text: "Tugallangan dasturlar" },
+  { heading: "3", text: "Qoniqarli talabalar" },
+  { heading: "300", text: "Tugallangan loyihalar" },
+  { heading: "3", text: "Yillik tajriba" },
+];
+
+export const portfolioImages = [
+  { imges: "../../images/in-brain-logo.png" },
+  { imges: "../../images/newera.png" },
+  { imges: "../../rapm.png" },
 ];
