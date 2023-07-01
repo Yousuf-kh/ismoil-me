@@ -104,7 +104,22 @@ export const portfolioNumbers = [
 ];
 
 export const portfolioImages = [
-  { imges: "../../images/in-brain-logo.png" },
-  { imges: "../../images/newera.png" },
-  { imges: "../../rapm.png" },
+  { image: <Image src="../../images/in-brain-logo.png" /> },
+  { image: <Image src="../../images/newera.png" /> },
+  { image: <Image src="../../images/rapm.png" /> },
+];
+
+export const company = [
+  { image: <Image src="../../images/c-1.png" /> },
+  { image: <Image src="../../images/c-2.png" /> },
+  { image: <Image src="../../images/c-3.png" /> },
+  { image: <Image src="../../images/c-4.png" /> },
+  { image: <Image src="../../images/c-5.png" /> },
+  { image: <Image src="../../images/c-6.png" /> },
+  { image: <Image src="../../images/c-7.png" /> },
+  { image: <Image src="../../images/c-8.png" /> },
+  { image: <Image src="../../images/c-9.png" /> },
+  { image: <Image src="../../images/c-10.png" /> },
+  { image: <Image src="../../images/c-11.png" /> },
+  { image: <Image src="../../images/c-12.png" /> },
 ];
