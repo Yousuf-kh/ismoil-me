@@ -16,7 +16,7 @@ const Sale = () => {
       backgroundImage={"url(/images/bg_10.png)"}
       backgroundSize={"cover"}
       backgroundPosition={"center"}
-      p={"50px"}
+      py={"50px"}
     >
       <Container maxW={"container.lg"}>
         <Grid

@@ -19,7 +19,7 @@ import Carousel from "react-multi-carousel";
 
 const Portfolio = () => {
   return (
-    <Box w={"full"} bg={"#fff"} p={"50px"}>
+    <Box w={"full"} bg={"#fff"} py={"50px"}>
       <Container maxW={"container.lg"}>
         <Grid
           templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}

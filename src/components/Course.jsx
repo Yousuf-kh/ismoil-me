@@ -12,7 +12,7 @@ import {
 
 const Course = () => {
   return (
-    <Box w={"full"} bg={"#F5F5F5"} p={"50px"}>
+    <Box w={"full"} bg={"#F5F5F5"} py={"50px"}>
       <Container maxW={"container.lg"}>
         <Heading textAlign={"center"} pb={10}>
           Kurslar

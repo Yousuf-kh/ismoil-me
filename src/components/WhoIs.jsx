@@ -12,7 +12,7 @@ import { whois } from "../helpers/const";
 
 const WhoIs = () => {
   return (
-    <Box w={"full"} p={"50px"} bg={"#F5F5F5"}>
+    <Box w={"full"} py={"50px"} bg={"#F5F5F5"}>
       <Container maxW={"container.lg"}>
         <Heading color={"#242935"} fontSize={"38px"} textAlign={"center"}>
           Kimlar uchun

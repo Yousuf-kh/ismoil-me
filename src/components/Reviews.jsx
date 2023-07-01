@@ -15,7 +15,7 @@ import { responsive2, portfolioFirst, caruselImage } from "../helpers/const";
 
 const Reviews = () => {
   return (
-    <Box w={"full"} p={"50px"}>
+    <Box w={"full"} py={"50px"}>
       <Container maxW={"container.lg"}>
         <Heading fontSize={"38px"} fontWeight={"700"}>
           O’quvchilarimning ishlari

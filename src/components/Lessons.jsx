@@ -2,7 +2,7 @@ import { Box, Button, Container, Heading, Image } from "@chakra-ui/react";
 
 const Lessons = () => {
   return (
-    <Box w={"full"} p={"50px"}>
+    <Box w={"full"} py={"50px"}>
       <Heading
         textAlign={"center"}
         fontSize={{ base: "25px", md: "38px" }}

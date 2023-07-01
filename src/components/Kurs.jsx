@@ -17,7 +17,7 @@ const Kurs = () => {
       backgroundImage={"url(/images/bg_2.png)"}
       minH={"556px"}
       backgroundSize={"cover"}
-      p={"50px"}
+      py={"50px"}
     >
       <Container maxW={"container.lg"}>
         <Heading
