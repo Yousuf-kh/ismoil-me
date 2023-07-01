@@ -61,8 +61,8 @@ const OnlineCourse = () => {
             gap={6}
             templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
           >
-            {textAbout.map((c) => (
-              <Flex gap={2} align={"center"}>
+            {textAbout.map((c, i) => (
+              <Flex gap={2} align={"center"} key={i}>
                 <Image src="../../images/Subtract.png" />
                 <Text color={"#D9D9D9"} fontSize={"18px"}>
                   {c}

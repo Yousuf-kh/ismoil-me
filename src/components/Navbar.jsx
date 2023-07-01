@@ -4,6 +4,14 @@ import {
   Container,
   Flex,
   Image,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
   // Link,
   Text,
 } from "@chakra-ui/react";
@@ -43,13 +51,33 @@ const Navbar = () => {
                 </Text>
               </Link>
             ))}
-            <HamburgerIcon
-              color={"white"}
-              cursor={"pointer"}
-              w={"24px"}
-              h={"24px"}
-              display={{ base: "block", md: "none" }}
-            />
+
+            <Menu>
+              <MenuButton
+                as={Button}
+                rightIcon={
+                  <HamburgerIcon w={"24px"} h={"24px"} color={"#fff"} />
+                }
+                bg={"transparent"}
+                _hover={{ bg: "transparent" }}
+                display={{ base: "block", md: "none" }}
+              ></MenuButton>
+              <MenuList>
+                {navLinks.map((c, i) => (
+                  <Link key={c.text} to={c.page}>
+                    <Text
+                      p={2}
+                      _hover={{ color: "#60CDF6", textDecor: "underline" }}
+                      color={"#333"}
+                      fontSize={"14px"}
+                    >
+                      {c.text}
+                    </Text>
+                  </Link>
+                ))}
+              </MenuList>
+            </Menu>
+
             <Button
               bg={"#31333D"}
               color={"#fff"}
