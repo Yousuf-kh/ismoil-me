@@ -11,7 +11,7 @@ import {
 
 import Carousel from "react-multi-carousel";
 
-import { responsive2, portfolioFirst } from "../helpers/const";
+import { responsive2, portfolioFirst, caruselImage } from "../helpers/const";
 
 const Reviews = () => {
   return (
@@ -20,111 +20,40 @@ const Reviews = () => {
         <Heading fontSize={"38px"} fontWeight={"700"}>
           O’quvchilarimning ishlari
         </Heading>
-        <Grid
-          gridTemplateColumns={{ base: "repeat(1,1fr)", md: "repeat(2,1fr)" }}
-          gap={{ base: 0, md: 5 }}
-        >
+        <Flex gap={5} flexDirection={{ base: "column", md: "row" }}>
           <Box
             p={10}
             boxShadow={"0px 13px 25px -1px rgba(34, 60, 80, 0.2)"}
             h={"300px"}
             mt={10}
-            width={{ base: "full", md: "570px" }}
+            width={{ base: "full", md: "50%" }}
           >
             <Carousel responsive={responsive2}>
-              <Box>
-                <Image src="/images/logo2.png" pb={5} />
-                <Text fontSize={{ base: "10px", md: "17px" }} pb={5}>
-                  <Link color={"#4D9FEB"}>@mirjalolov_komron</Link> amazing
-                  concept. It really brings me joy 💜 Bring a sense of play your
-                  software and consider how it impacts the humans using it. Best
-                  way to build.
-                </Text>
-                <Flex justify={"space-between"}>
-                  <Flex align={"center"} gap={2}>
-                    <Image
-                      src="/images/4.jpg"
-                      w={{ base: "20px", md: "64px" }}
-                      h={{ base: "20px", md: "64px" }}
-                      borderRadius={"100%"}
-                    />
-                    <Box fontSize={{ base: "10px", md: "14px" }}>
-                      <Text lineHeight={"14px"}>Komron Mirjalolov</Text>
-                      <Text>Dizayner</Text>
-                    </Box>
-                  </Flex>
-                  <Flex align={"center"} gap={2}>
-                    <Image src="/images/star.png" />
-                    <Image src="/images/star.png" />
-                    <Image src="/images/star.png" />
-                  </Flex>
-                </Flex>
-              </Box>
+              {caruselImage.map((c, i) => (
+                <Box>
+                  <Image src="/images/logo2.png" />
 
-              <Box>
-                <Image src="/images/logo2.png" pb={5} />
-                <Text fontSize={{ base: "10px", md: "17px" }} pb={5}>
-                  <Link color={"#4D9FEB"}>@mirjalolov_komron</Link> amazing
-                  concept. It really brings me joy 💜 Bring a sense of play your
-                  software and consider how it impacts the humans using it. Best
-                  way to build.
-                </Text>
-                <Flex justify={"space-between"}>
-                  <Flex align={"center"} gap={2}>
-                    <Image
-                      src="/images/4.jpg"
-                      w={{ base: "20px", md: "64px" }}
-                      h={{ base: "20px", md: "64px" }}
-                      borderRadius={"100%"}
-                    />
+                  <Text pt={5}>{c.text}</Text>
+                  <Flex gap={3} pt={5} align={"center"}>
+                    <Box w={"64px"} h={"64px"}>
+                      {c.image}
+                    </Box>
                     <Box>
-                      <Text lineHeight={"14px"}>Komron Mirjalolov</Text>
-                      <Text>Dizayner</Text>
+                      <Text fontWeight={"700"}>{c.author}</Text>
+                      <Text>{c.job}</Text>
                     </Box>
                   </Flex>
-                  <Flex align={"center"} gap={2}>
-                    <Image src="/images/star.png" />
-                    <Image src="/images/star.png" />
-                    <Image src="/images/star.png" />
-                  </Flex>
-                </Flex>
-              </Box>
-
-              <Box>
-                <Image src="/images/logo2.png" pb={5} />
-                <Text fontSize={{ base: "10px", md: "17px" }} pb={5}>
-                  <Link color={"#4D9FEB"}>@mirjalolov_komron</Link> amazing
-                  concept. It really brings me joy 💜 Bring a sense of play your
-                  software and consider how it impacts the humans using it. Best
-                  way to build.
-                </Text>
-                <Flex justify={"space-between"}>
-                  <Flex align={"center"} gap={2}>
-                    <Image
-                      src="/images/4.jpg"
-                      w={{ base: "20px", md: "64px" }}
-                      h={{ base: "20px", md: "64px" }}
-                      borderRadius={"100%"}
-                    />
-                    <Box>
-                      <Text lineHeight={"14px"}>Komron Mirjalolov</Text>
-                      <Text>Dizayner</Text>
-                    </Box>
-                  </Flex>
-                  <Flex align={"center"} gap={2}>
-                    <Image src="/images/star.png" />
-                    <Image src="/images/star.png" />
-                    <Image src="/images/star.png" />
-                  </Flex>
-                </Flex>
-              </Box>
+                </Box>
+              ))}
             </Carousel>
           </Box>
 
-          <Carousel responsive={responsive2}>
-            {portfolioFirst.map((c) => c.image)}
-          </Carousel>
-        </Grid>
+          <Box width={{ base: "full", md: "50%" }}>
+            <Carousel responsive={responsive2}>
+              {portfolioFirst.map((c) => c.image)}
+            </Carousel>
+          </Box>
+        </Flex>
       </Container>
     </Box>
   );

@@ -123,3 +123,24 @@ export const company = [
   { image: <Image src="/images/c-11.png" /> },
   { image: <Image src="/images/c-12.png" /> },
 ];
+
+export const caruselImage = [
+  {
+    text: "@mirjalolov_komron amazing concept. It really brings me joy 💜 Bring a sense of play your software and consider how it impacts the humans using it. Best way to build.",
+    image: <Image borderRadius={"100%"} src="/images/1.jpg" />,
+    author: "Komron Mirjalolov",
+    job: "Dizayner",
+  },
+  {
+    text: "@mirjalolov_komron amazing concept. It really brings me joy 💜 Bring a sense of play your software and consider how it impacts the humans using it. Best way to build.",
+    image: <Image borderRadius={"100%"} src="/images/1.jpg" />,
+    author: "Komron Mirjalolov",
+    job: "Dizayner",
+  },
+  {
+    text: "@mirjalolov_komron amazing concept. It really brings me joy 💜 Bring a sense of play your software and consider how it impacts the humans using it. Best way to build.",
+    image: <Image borderRadius={"100%"} src="/images/1.jpg" />,
+    author: "Komron Mirjalolov",
+    job: "Dizayner",
+  },
+];
