@@ -38,7 +38,7 @@ const Footer = () => {
                   _hover={{ color: "#60CDF6", textDecor: "underline" }}
                   color={"#fff"}
                   fontSize={"14px"}
-                  display={{ base: "none", md: "block" }}
+                  display={{ base: "none", md: "flex" }}
                 >
                   {c.text}
                 </Text>

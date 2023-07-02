@@ -3,7 +3,7 @@ import { Image, Text } from "@chakra-ui/react";
 export const navLinks = [
   { text: "Men haqimda", page: "/about" },
   { text: "Portfolio", page: "/about" },
-  { text: "Dizayn xizmatlari", page: "/about" },
+  { text: "Dizayn xizmatlari", page: "/services" },
   { text: "Onlayn-kurslar", page: "/kurses" },
 ];
 
@@ -142,5 +142,18 @@ export const caruselImage = [
     image: <Image borderRadius={"100%"} src="/images/1.jpg" />,
     author: "Komron Mirjalolov",
     job: "Dizayner",
+  },
+];
+
+export const xizmatlar = [
+  {
+    bg: "url(/images/dizayn-1.png)",
+    heading: "Reklama postlari SMM uchun",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    bg: "url(/images/dizayn-3.png)",
+    heading: "Logotip ishlab chiqish",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ];

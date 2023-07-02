@@ -8,7 +8,7 @@ const ExtraInfo = () => {
     <Box w={"full"} bg={"#F5F5F5"} minH={"368px"}>
       <Container maxW={"container.lg"}>
         <Heading
-          fontSize={"48px"}
+          fontSize={{ base: "30px", md: "48px" }}
           fontWeight={"700"}
           lineHeight={"64px"}
           textAlign={"center"}
@@ -29,12 +29,12 @@ const ExtraInfo = () => {
         <Grid
           gridTemplateColumns={{ base: "repeat(1,1fr)", md: "repeat(4,1fr)" }}
           gap={5}
-          pt={10}
+          pt={{ base: 5, md: 10 }}
         >
           {portfolioNumbers.map((c, i) => (
             <Box
-              borderRight={"1px solid #333"}
-              borderLeft={i == 0 ? "1px solid #333" : ""}
+              borderRight={{ base: "none", md: "1px solid #333" }}
+              borderLeft={{ base: "none", md: i == 0 ? "1px solid #333" : "" }}
               key={i}
             >
               <Heading

@@ -38,7 +38,7 @@ const Portfolio = () => {
             <Text fontSize={"18px"} color={"#51555E"} pb={3}>
               Grafik dizayn san'atini men bilan birga o'rganing!
             </Text>
-            <Flex align={"center"} gap={5}>
+            <Flex align={"center"} gap={1}>
               <Button bg={"#53C2EC"} color={"#fff"} px={"40px"}>
                 O'RGANISH
               </Button>

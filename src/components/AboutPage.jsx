@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <Box h={"500px"} w={"full"} backgroundImage={"url(/images/about-bg.png)"}>
       <Container maxW={"container.lg"}>
-        <Box pt={"150px"} w={{ base: "full", md: "60%" }}>
+        <Box pt={{ base: "20px", md: "150px" }} w={{ base: "full", md: "60%" }}>
           <Heading
             fontSize={"38px"}
             fontWeight={"700"}

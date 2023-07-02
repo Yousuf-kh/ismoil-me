@@ -16,9 +16,13 @@ const Portfolio1 = () => {
   return (
     <Box w={"full"}>
       <Container maxW={"container.lg"}>
-        <Grid gap={6} gridTemplateColumns={"repeat(2,1fr)"} py={10}>
+        <Grid
+          gap={6}
+          gridTemplateColumns={{ base: "repeat(1,1fr)", md: "repeat(2,1fr)" }}
+          py={10}
+        >
           <Heading
-            fontSize={"30px"}
+            fontSize={{ base: "25px", md: "30px" }}
             fontWeight={"700"}
             lineHeight={"32px"}
             letterSpacing={"0.01em"}

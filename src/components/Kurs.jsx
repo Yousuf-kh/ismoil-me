@@ -61,7 +61,7 @@ const Kurs = () => {
                 src={i == 1 ? "/images/blue-star.png" : "/images/red-star.png"}
                 pos={"absolute"}
                 top={"5"}
-                right={"90"}
+                right={{ base: "0", md: "90" }}
               />
             </Box>
           ))}
