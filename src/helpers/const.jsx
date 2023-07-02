@@ -105,8 +105,8 @@ export const portfolioNumbers = [
 
 export const portfolioImages = [
   { image: <Image src="/images/in-brain-logo.png" /> },
-  { image: <Image src="/images/newera.png" /> },
-  { image: <Image src="/images/rapm.png" /> },
+  { image: <Image src="/images/c-1.png" /> },
+  { image: <Image src="/images/c-3.png" /> },
 ];
 
 export const company = [

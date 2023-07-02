@@ -48,7 +48,7 @@ const Portfolio = () => {
               </Text>
             </Flex>
             <Center py={"20px"}>
-              <Image src="/images/vector.png" />
+              <Image src="/images/Vector.png" />
             </Center>
           </Box>
 
