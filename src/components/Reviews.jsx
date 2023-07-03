@@ -35,7 +35,10 @@ const Reviews = () => {
 
                   <Text pt={5}>{c.text}</Text>
                   <Flex gap={3} pt={5} align={"center"}>
-                    <Box w={"64px"} h={"64px"}>
+                    <Box
+                      w={{ base: "40px", md: "64px" }}
+                      h={{ base: "40px", md: "64px" }}
+                    >
                       {c.image}
                     </Box>
                     <Box>
