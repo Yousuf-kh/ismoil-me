@@ -30,7 +30,7 @@ const Reviews = () => {
           >
             <Carousel responsive={responsive2}>
               {caruselImage.map((c, i) => (
-                <Box>
+                <Box py={1}>
                   <Image src="/images/logo2.png" />
 
                   <Text pt={5}>{c.text}</Text>
