@@ -33,16 +33,17 @@ const Footer = () => {
 
           <Flex align={"center"} gap={"5"}>
             {navLinks.map((c) => (
-              <Link key={c.text} to={c.page}>
-                <Text
-                  _hover={{ color: "#60CDF6", textDecor: "underline" }}
-                  color={"#fff"}
-                  fontSize={"14px"}
-                  display={{ base: "none", md: "flex" }}
-                >
-                  {c.text}
-                </Text>
-              </Link>
+              <Box key={c.text} display={{ base: "none", md: "flex" }}>
+                <Link to={c.page}>
+                  <Text
+                    _hover={{ color: "#60CDF6", textDecor: "underline" }}
+                    color={"#fff"}
+                    fontSize={"14px"}
+                  >
+                    {c.text}
+                  </Text>
+                </Link>
+              </Box>
             ))}
 
             <Flex gap={2}>
