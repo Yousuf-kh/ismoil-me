@@ -122,6 +122,16 @@ export const company = [
   { image: <Image src="/images/c-10.png" /> },
   { image: <Image src="/images/c-11.png" /> },
   { image: <Image src="/images/c-12.png" /> },
+  { image: <Image src="/images/c2-1.png" /> },
+  { image: <Image src="/images/c2-2.png" /> },
+  { image: <Image src="/images/c2-3.png" /> },
+  { image: <Image src="/images/c2-4.png" /> },
+  { image: <Image src="/images/c2-5.png" /> },
+  { image: <Image src="/images/c2-6.png" /> },
+  { image: <Image src="/images/c2-7.png" /> },
+  { image: <Image src="/images/c2-8.png" /> },
+  { image: <Image src="/images/c2-9.png" /> },
+  { image: <Image src="/images/c2-10.png" /> },
 ];
 
 export const caruselImage = [
