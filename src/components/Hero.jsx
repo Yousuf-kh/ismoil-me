@@ -18,8 +18,8 @@ const Hero = () => {
     >
       <Container maxW={"container.lg"}>
         <Box
-          pt={{ base: "30px", md: "100px" }}
-          w={{ base: "270px", md: "500px" }}
+          pt={{ base: "50px", md: "100px" }}
+          w={{ base: "full", md: "500px" }}
           pos={"relative"}
         >
           <Flex align={"flex-end"} pos={"relative"}>

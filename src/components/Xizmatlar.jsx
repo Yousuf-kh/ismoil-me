@@ -26,15 +26,15 @@ const Xizmatlar = () => {
         {xizmatlar.map((c, i) => (
           <Box
             key={i}
-            pos={"relative"}
-            p={{ base: 10, md: 20 }}
-            minW={"full"}
-            h={"300px"}
+            p={{ base: 5, md: 20 }}
+            w={"full"}
+            h={{ base: "", md: "300px" }}
             bg={c.bg}
+            backgroundSize={"cover"}
           >
-            <Box pos={"absolute"} w={{ base: "100%", md: "40%" }}>
+            <Box w={{ base: "full", md: "40%" }}>
               <Heading
-                fontSize={"24px"}
+                fontSize={{ base: "18px", md: "24px" }}
                 fontWeight={"700"}
                 lineHeight={"25px"}
                 letterSpacing={"0.03em"}
@@ -44,7 +44,7 @@ const Xizmatlar = () => {
                 {c.heading}
               </Heading>
               <Text
-                fontSize={"16px"}
+                fontSize={{ base: "14px", md: "16px" }}
                 fontWeight={"300"}
                 lineHeight={"18px"}
                 letterSpacing={"0.03em"}
@@ -53,7 +53,12 @@ const Xizmatlar = () => {
               >
                 {c.text}
               </Text>
-              <Button px={10} bg={"#45CCFF"} color={"#fff"}>
+              <Button
+                size={{ base: "xs", md: "md" }}
+                px={10}
+                bg={"#45CCFF"}
+                color={"#fff"}
+              >
                 Buyutma Berish
               </Button>
             </Box>

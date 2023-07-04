@@ -12,7 +12,7 @@ const Services = () => {
       <Container maxW={"container.lg"}>
         <Box w={{ base: "90", md: "50%" }}>
           <Text
-            fontSize={"22px"}
+            fontSize={{ base: "19px", md: "22px" }}
             fontWeight={"700"}
             lineHeight={"24px"}
             letterSpacing={"0.03em"}
@@ -21,7 +21,7 @@ const Services = () => {
             Bizning noyob va strategik dizaynlarimiz orqali kompaniyangiz
           </Text>
           <Heading
-            fontSize={"36px"}
+            fontSize={{ base: "30px", md: "36px" }}
             fontWeight={"700"}
             lineHeight={"40px"}
             letterSpacing={"0.03em"}

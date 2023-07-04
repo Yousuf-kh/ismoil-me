@@ -13,8 +13,8 @@ const ServicesText = () => {
           <Image src="/images/logo3.png" />
           <Box w={{ base: "full", md: "65%" }}>
             <Heading
-              fontSize={"30px"}
-              lineHeight={"40px"}
+              fontSize={{ base: "24px", md: "30px" }}
+              lineHeight={{ base: "30px", md: "40px" }}
               pt={{ base: 10, md: "" }}
             >
               Biz ko'chmas mulk va biznes uchun dizayn, ijodkorlik va savdoni
@@ -22,7 +22,7 @@ const ServicesText = () => {
             </Heading>
             <Text
               pt={2}
-              fontSize={"18px"}
+              fontSize={{ base: "16px", md: "18px" }}
               fontWeight={"400"}
               lineHeight={"26px"}
             >

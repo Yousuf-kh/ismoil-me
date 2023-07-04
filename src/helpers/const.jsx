@@ -5,6 +5,7 @@ export const navLinks = [
   { text: "Portfolio", page: "/about" },
   { text: "Dizayn xizmatlari", page: "/services" },
   { text: "Onlayn-kurslar", page: "/kurses" },
+  { text: "Kontakt", page: "/kontakt" },
 ];
 
 export const portfolioFirst = [
@@ -166,4 +167,9 @@ export const xizmatlar = [
     heading: "Logotip ishlab chiqish",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
+];
+
+export const courses = [
+  { image: "/images/kurs-1.png", narx: "50$" },
+  { image: "/images/kurs-2.png", narx: "100$" },
 ];
