@@ -42,7 +42,7 @@ const Contact = () => {
       <Container maxW={"container.lg"}>
         <Box
           pos={"relative"}
-          top={"-10"}
+          top={{ base: "-5", md: "-10" }}
           bg={"#fff"}
           p={{ base: 5, md: 10 }}
           boxShadow={"0px 13px 25px -1px rgba(34, 60, 80, 0.2)"}
