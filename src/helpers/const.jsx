@@ -173,3 +173,61 @@ export const courses = [
   { image: "/images/kurs-1.png", narx: "50$" },
   { image: "/images/kurs-2.png", narx: "100$" },
 ];
+
+export const kurslarRasm = [
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+  {
+    img: "/images/kurslar-rasm.png",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Darslik nomi",
+  },
+];

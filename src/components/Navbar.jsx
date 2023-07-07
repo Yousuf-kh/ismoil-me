@@ -7,12 +7,6 @@ import {
   Menu,
   MenuButton,
   MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-  // Link,
   Text,
 } from "@chakra-ui/react";
 
@@ -78,15 +72,17 @@ const Navbar = () => {
               </MenuList>
             </Menu>
 
-            <Button
-              bg={"#31333D"}
-              color={"#fff"}
-              w={"70px"}
-              borderRadius={"20px"}
-              size={"sm"}
-            >
-              Kirish
-            </Button>
+            <Link to="/kurslar">
+              <Button
+                bg={"#31333D"}
+                color={"#fff"}
+                w={"70px"}
+                borderRadius={"20px"}
+                size={"sm"}
+              >
+                Kirish
+              </Button>
+            </Link>
           </Flex>
         </Flex>
       </Container>

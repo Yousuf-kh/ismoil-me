@@ -26,11 +26,12 @@ const Xizmatlar = () => {
         {xizmatlar.map((c, i) => (
           <Box
             key={i}
-            p={{ base: 4, md: 20 }}
+            p={{ base: 5, md: 20 }}
             w={"full"}
             h={{ base: "", md: "300px" }}
             bg={c.bg}
             backgroundSize={"cover"}
+            pos={"relative"}
           >
             <Box w={{ base: "full", md: "40%" }}>
               <Heading
