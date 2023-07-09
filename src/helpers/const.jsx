@@ -231,3 +231,30 @@ export const kurslarRasm = [
     title: "Darslik nomi",
   },
 ];
+
+export const comment = [
+  {
+    img: "/images/comment.png",
+    text: "Darlikni bu soni juda ham ajoyib tushunarli o’tdi",
+  },
+  {
+    img: "/images/comment.png",
+    text: "Darlikni bu soni juda ham ajoyib tushunarli o’tdi",
+  },
+  {
+    img: "/images/comment.png",
+    text: "Darlikni bu soni juda ham ajoyib tushunarli o’tdi",
+  },
+  {
+    img: "/images/comment.png",
+    text: "Darlikni bu soni juda ham ajoyib tushunarli o’tdi",
+  },
+  {
+    img: "/images/comment.png",
+    text: "Darlikni bu soni juda ham ajoyib tushunarli o’tdi",
+  },
+  {
+    img: "/images/comment.png",
+    text: "Darlikni bu soni juda ham ajoyib tushunarli o’tdi",
+  },
+];
